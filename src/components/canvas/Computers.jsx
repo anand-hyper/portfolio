@@ -12,7 +12,7 @@ const Computers = ({ isMobile }) => {
       <pointLight intensity={1} />
       <spotLight
         visible
-        position={[-20, 50, 10]}
+        position={[-20, 60, 10]}
         angle={0.12}
         intensity={1}
         penumbra={1}
@@ -22,7 +22,7 @@ const Computers = ({ isMobile }) => {
       <primitive
         object={computer.scene}
         scale={isMobile ? 0.65 : 0.75}
-        position={isMobile ? [0, -3, -2.2] : [0, -3.25, -1.5]}
+        position={isMobile ? [0, -3, -2.2] : [0, -4.5, -1.5]}
         rotation={[-0.01, -0.2, -0.1]}
       />
     </mesh>
@@ -34,7 +34,7 @@ const ComputersCanvas = () => {
 
   useEffect(() => {
     // Add a listener for changes to the screen size
-    const mediaQuery = window.matchMedia("(max-width: 500px)");
+    const mediaQuery = window.matchMedia("(max-width: 800px)");
     setIsMobile(mediaQuery.matches);
 
     const handleMediaQueryChange = (event) => {

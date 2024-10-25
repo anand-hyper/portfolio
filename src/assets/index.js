@@ -15,25 +15,19 @@ import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
 import mongodb from "./tech/mongodb.png";
 import nodejs from "./tech/nodejs.png";
-import java from "./tech/java.png";
+
 import mysql from "./tech/mysql.png";
 import reactjs from "./tech/reactjs.png";
-import nextJs from "./tech/nextjs.svg";
-import angular from "./tech/angular.png";
+
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
-import typescript from "./tech/typescript.png";
-import nickelfox from "./company/nickelfox.png";
-import newgen from "./company/newgen.png";
-import skillrisers from "./company/skillrisers.png";
-import proximus from "./company/proximus.png";
+import python from "./tech/python.webp";
 
-import aptihealthWeb from "./projects/aptihealthWeb.png";
-import aptihealthApp from "./projects/aptihealthApp.png";
-import zealWeb from "./projects/zealWeb.png";
-import zealApp from "./projects/zealApp.png";
-import rollWeb from "./projects/rollWeb.png";
-import rollApp from "./projects/rollApp.png";
+import Bosch from "./company/Bosch_logo.png";
+import KAT from "./company/KAT_flutter.png";
+
+import PrescriptoWeb from "./projects/PrescriptoWeb.png";
+import Crypto_web from "./projects/Crypto_web.png";
 
 export {
   logo,
@@ -52,22 +46,13 @@ export {
   javascript,
   mongodb,
   nodejs,
-  java,
   mysql,
   reactjs,
-  nextJs,
-  angular,
   redux,
+  python,
   tailwind,
-  typescript,
-  nickelfox,
-  newgen,
-  skillrisers,
-  proximus,
-  aptihealthWeb,
-  aptihealthApp,
-  zealWeb,
-  zealApp,
-  rollWeb,
-  rollApp,
+  KAT,
+  PrescriptoWeb,
+  Crypto_web,
+  Bosch,
 };

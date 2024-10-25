@@ -8,6 +8,11 @@ import emailjs from "@emailjs/browser";
 import { personalInfo, publicUrls } from "../constants";
 import Modal from "./Modal";
 
+//
+//
+//
+
+
 const Contact = () => {
   const formRef = useRef();
   const [form, setForm] = useState({
@@ -35,8 +40,8 @@ const Contact = () => {
 
     emailjs
       .send(
-        import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
-        import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
+        'service_c5nhdpj',
+        'template_s922m8k',
         {
           from_name: form.name,
           to_name: personalInfo.fullName,
@@ -45,7 +50,8 @@ const Contact = () => {
           message: form.message,
           reply_to: form.email,
         },
-        import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
+        'Ft8vKiT7kWHr2PMJG'
+        
       )
       .then(
         () => {
